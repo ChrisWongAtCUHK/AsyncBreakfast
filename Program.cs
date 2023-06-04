@@ -25,7 +25,7 @@ namespace AsyncBreakfast
 
             Egg eggs = await eggsTask;
             Console.WriteLine("eggs are ready");
-            
+
             Bacon bacon = await baconTask;
             Console.WriteLine("bacon is ready");
 
@@ -66,6 +66,8 @@ namespace AsyncBreakfast
             }
             Console.WriteLine("Start toasting...");
             await Task.Delay(3000);
+            Console.WriteLine("Fire! Toast is ruined!");
+            throw new InvalidOperationException("The toaster is on fire");
             Console.WriteLine("Remove toast from toaster");
 
             return new Toast();
