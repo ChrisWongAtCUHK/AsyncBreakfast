@@ -3,3 +3,4 @@
 * [Start tasks concurrently](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/#start-tasks-concurrently)
 * [Composition with tasks](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/#composition-with-tasks)
 * [Asynchronous exceptions](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/#asynchronous-exceptions)
+* [Await tasks efficiently](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/#await-tasks-efficiently)
